@@ -1,12 +1,7 @@
-# Use a base image with Fedora
 FROM ubuntu:latest
 
-# Create the directories
-RUN mkdir -p /usr/local/out && mkdir -p /usr/local/in
+# Create the necessary directories
+RUN mkdir -p /usr/local/out /usr/local/in
 
-# Set the working directory (optional, just for demonstration)
+# Set the working directory (optional)
 WORKDIR /usr/local
-
-# Default command (optional, just for demonstration)
-CMD ["bash"]
-
