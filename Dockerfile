@@ -1,5 +1,5 @@
 # Use a base image with Fedora
-FROM fedora:latest
+FROM ubuntu:latest
 
 # Create the directories
 RUN mkdir -p /usr/local/out && mkdir -p /usr/local/in
